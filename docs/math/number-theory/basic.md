@@ -205,7 +205,7 @@ $$
 -   恒等函数：$\operatorname{id}_k(n)=n^k$，$\operatorname{id}_{1}(n)$ 通常简记作 $\operatorname{id}(n)$。（完全积性）
 -   常数函数：$1(n)=1$。（完全积性）
 -   除数函数：$\sigma_{k}(n)=\sum_{d\mid n}d^{k}$。$\sigma_{0}(n)$ 通常简记作 $d(n)$ 或 $\tau(n)$，$\sigma_{1}(n)$ 通常简记作 $\sigma(n)$。
--   欧拉函数：$\varphi(n)=\sum_{i=1}^n[\gcd(i,n)=1]$
+-   欧拉函数：$\varphi(n)=\sum_{i=1}^n[\gcd(i,n)=1]$。
 -   莫比乌斯函数：$\mu(n)=\begin{cases}1&n=1\\0&\exists d>1,d^{2}\mid n\\(-1)^{\omega(n)}&\text{otherwise}\end{cases}$，其中 $\omega(n)$ 表示 $n$ 的本质不同质因子个数，它是一个加性函数。
 
 ???+ note "加性函数"
